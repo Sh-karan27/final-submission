@@ -883,7 +883,6 @@ textarea {
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
-
   .grid-container {
     grid-template-columns: repeat(
       2,
@@ -904,9 +903,7 @@ textarea {
   }
 }
 
-
 @media (min-width: 768px) and (max-width: 1200px) {
-  
   .callback-form input,
   .callback-btn {
     font-size: 0.9rem; /* Adjust input and button size */
@@ -961,6 +958,30 @@ textarea {
   }
 
   @media (max-width: 768px) {
+    .footer-container {
+      grid-template-columns: 1fr; /* Stack columns on small screens */
+      gap: 15px;
+    }
+
+    .footer-col h3 {
+      font-size: 1.2rem; /* Slightly smaller font size for headings */
+    }
+
+    .footer-col p {
+      font-size: 0.9rem; /* Slightly smaller font size for paragraphs */
+    }
+
+    .footer-col i {
+      font-size: 1.5rem; /* Smaller icons for mobile */
+    }
+
+    .callback-form input {
+      font-size: 0.9rem; /* Smaller input font size for mobile */
+    }
+
+    .callback-btn {
+      font-size: 0.9rem; /* Smaller button font size for mobile */
+    }
     .row {
       flex-direction: column-reverse; /* Stack columns on smaller screens */
     }
@@ -999,8 +1020,6 @@ textarea {
     .col-md-6 {
       flex: 0 0 48%; /* Ensure two columns per row */
     }
-
-    
 
     .benefit-grid {
       grid-template-columns: 1fr; /* Switch to single column on small screens */
