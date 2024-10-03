@@ -1090,3 +1090,10 @@ textarea {
     }
   }
 }
+
+@media (max-width: 416px) {
+  .footer-container {
+    grid-template-columns: 1fr; /* Stack columns on small screens */
+    gap: 15px;
+  }
+}
