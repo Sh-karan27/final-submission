@@ -41,14 +41,14 @@ To get a local copy of this project up and running, follow these steps:
    git clone https://github.com/Sh-karan27/final-submission.git
 
 
-2.Navigate to the project directory:
-bash
+2. Navigate to the project directory:
+  ```bash
 Copy code
 cd your-repo-name
 
 
 
-##Usage
+## Usage
 Open the index.html file in your web browser to view the website. Ensure you have an internet connection to load external resources like Bootstrap and Font Awesome.
 
 ##Deployment
