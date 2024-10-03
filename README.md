@@ -42,7 +42,6 @@ To get a local copy of this project up and running, follow these steps:
 
 
 2. Navigate to the project directory:
-  ```bash
 Copy code
 cd your-repo-name
 
