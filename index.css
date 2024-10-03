@@ -883,24 +883,7 @@ textarea {
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
-  .footer-container {
-    grid-template-columns: repeat(
-      2,
-      1fr
-    ); /* Two columns for tablet-sized screens */
-  }
 
-  .footer-col h3 {
-    font-size: 1.5rem; /* Keep the heading size */
-  }
-
-  .footer-col p {
-    font-size: 1rem; /* Keep paragraph size */
-  }
-
-  .footer-col i {
-    font-size: 1.8rem; /* Adjust icon size */
-  }
   .grid-container {
     grid-template-columns: repeat(
       2,
@@ -923,22 +906,7 @@ textarea {
 
 
 @media (min-width: 768px) and (max-width: 1200px) {
-  .footer-container {
-    grid-template-columns: 1fr; /* Single column for smaller screens */
-  }
-
-  .footer-col h3 {
-    font-size: 1.4rem; /* Adjust font size for smaller screens */
-  }
-
-  .footer-col p {
-    font-size: 0.9rem; /* Adjust paragraph size */
-  }
-
-  .footer-col i {
-    font-size: 1.5rem; /* Adjust icon size */
-  }
-
+  
   .callback-form input,
   .callback-btn {
     font-size: 0.9rem; /* Adjust input and button size */
@@ -1032,9 +1000,7 @@ textarea {
       flex: 0 0 48%; /* Ensure two columns per row */
     }
 
-    .footer-container {
-      grid-template-columns: 1fr;
-    }
+    
 
     .benefit-grid {
       grid-template-columns: 1fr; /* Switch to single column on small screens */
