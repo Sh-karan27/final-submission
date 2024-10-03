@@ -1,4 +1,4 @@
-# Website Name
+# Internship Assignment
 
 ## Description
 This website is designed with a focus on providing information and services related to my internship assignment. It is built using HTML, CSS, and JavaScript, with Bootstrap for responsive design and Font Awesome for icons.
@@ -38,7 +38,7 @@ To get a local copy of this project up and running, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/Sh-karan27/final-submission.git
 
 
 2.Navigate to the project directory:
