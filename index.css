@@ -380,7 +380,7 @@ body {
 }
 
 .day-item {
-  display: flex; 
+  display: flex;
   justify-content: space-evenly;
   align-items: center;
   gap: 20px;
@@ -1102,6 +1102,10 @@ textarea {
 }
 
 @media (max-width: 416px) {
+  .phone-input {
+    display: flex;
+    flex-direction: column;
+  }
   .footer-container {
     grid-template-columns: 1fr; /* Stack columns on small screens */
     gap: 15px;
